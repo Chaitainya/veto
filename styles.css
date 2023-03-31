@@ -54,32 +54,29 @@ body{
     justify-content: center;
     align-items: end;
     height: 26rem;
-    position: relative;
+    /* position: relative; */
 }
 
 .main-banner{
-    width: 215px;
+    width: 24rem;
     /* height: 308px; */
 }
 
-.main-banner-children{
+/* .main-banner-children{
     position: absolute;
-}
+} */
 
-.dialoque01{
-    /* top: 0; */ 
+/* .dialoque01{
     width: 161px;
-    /* height: 68px; */
     top: 2.2rem;
     right: -0.02rem;
-}
+} */
 
-.dialoque02{
+/* .dialoque02{
     width: 150px;
-    /* height: 60px; */
     bottom: 3.5rem;
     left: .6rem;
-}
+} */
 
 /* Game On */
 .game-on-banner{
@@ -98,8 +95,23 @@ body{
     width: 23rem;
 }
 
-.veto-game-on-download-btn{
+/* .veto-game-on-download-btn{
     width: 24.6rem;
+} */
+
+.download-button{
+    background-image: linear-gradient(#fb688a, #e13d63);
+    color: #fff;
+    width: 23.8rem;
+    height: 3.3rem;
+    font-size: 19px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    box-shadow: 0 0 15px -7px #000;
+    margin-bottom: .8rem;
+}
+.btn:not(:disabled):not(.disabled):active {
+    background-image: linear-gradient(#fb688a, #e13d63);
 }
 
 /* Journey made easy */
