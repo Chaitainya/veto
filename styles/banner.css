@@ -18,9 +18,46 @@
     width: 407px;
     height: 36px;
 }
+/* #send_link_web{
+    width: 568px;
+    height: 72px;
+} */
 #send_link_web{
     width: 568px;
     height: 72px;
+    display: flex;
+    border-radius: 2.3rem;
+}
+#send_link_web > span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 13.9%;
+    color: #0a2647;
+    background-color: white;
+    font-size: 1.4rem;
+    font-weight: 700;
+    border-radius: .7rem 0 0 0.7rem;
+}
+#send_link_web > input{
+    width: 48.99%;
+    font-size: 1.2rem;
+    color: #102c4c;
+    outline: none;
+    border: none;
+}
+#send_link_web > button{
+    width: 38.4%;
+    border: none;
+    background-image: linear-gradient(#fa6789, #e13c63);
+    border-radius: 0 0.7rem 0.7rem 0;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+    font-variant: unicase;
+    outline: none;
+    cursor: pointer;
 }
 #download_button{
     display: none;
@@ -57,4 +94,7 @@
 }
 #banner-right{
     padding: 0;
+}
+#getFreeVetosOnSignUp{
+    display: none;
 }

@@ -81,6 +81,9 @@
             #main_image_mob{
                 display: block;
             }
+            #getFreeVetosOnSignUp{
+                display: block;
+            }
 
             /* Your Journey */
             .your_journey{
@@ -223,11 +226,17 @@
 
                             <img id="get_app_link_web" src="./images/web/banner/get_app_link.png" alt="">
 
-                            <img id="send_link_web" src="./images/web/banner/send_link.png" alt="">
+                            <!-- <img id="send_link_web" src="./images/web/banner/send_link.png" alt=""> -->
+                            <div id="send_link_web">
+                                <span>+91</span>
+                                <input type="text" placeholder="Enter your mobile number" id="send_veto_link">
+                                <button type="button" onclick="sendVetoLink();">SEND LINK</button>
+                            </div>
+
                             <img id="download_button" src="./images/mobile/banner/download_btn.png" alt="">
 
                             <img id="get_it_on_playStore_web" src="./images/web/banner/get_it_on_playStore.png" alt="">
-                            <h5 class="text-white"><i>Get <i style="color: #1CAF5B">Free Vetos</i> on Sign-up!</i></h5>
+                            <h5 id="getFreeVetosOnSignUp" class="text-white"><i>Get <i style="color: #1CAF5B">Free Vetos</i> on Sign-up!</i></h5>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-12" id="banner-right">
@@ -413,5 +422,6 @@
 
     </div>
     
+    <script src="./scripts/script.js"></script>
 </body>
 </html>
