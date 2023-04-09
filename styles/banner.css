@@ -1,0 +1,60 @@
+.banner{
+    height: 93.3vh;
+}
+#game_on{
+    width: 340px;
+    height: 73px;
+}
+#play_rummy_web{
+    width: 408px;
+    height: 104px;
+}
+#play_rummy_mobile{
+    display: none;
+    width: 318px;
+    height: 98px;
+}
+#get_app_link_web{
+    width: 407px;
+    height: 36px;
+}
+#send_link_web{
+    width: 568px;
+    height: 72px;
+}
+#download_button{
+    display: none;
+    width: 328px;
+    /* height: 48px; */
+}
+#your_journey_mob{
+    display: none;
+    margin-top: 3rem;
+}
+#get_it_on_playStore_web{
+    width: 193px;
+    height: 67px;
+    cursor: pointer;
+}
+#main_image_web{
+    width: 75%;
+}
+#main_image_mob{
+    width: 75%;
+    display: none;
+}
+#banner-left{
+    margin-top: 1rem;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+#banner-left > div{
+    height: 79%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#banner-right{
+    padding: 0;
+}

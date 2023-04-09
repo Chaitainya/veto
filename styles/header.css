@@ -1,0 +1,24 @@
+.navbar{
+    height: 16.7vh;
+}
+#veto_logo{
+    width: 104px;
+    height: 103px;
+    margin-right: 2rem;
+}
+#veto_brand{
+    width: 196px;
+    height: 53px;
+}
+#get_it_ps_mob{
+    display: none;
+    cursor: pointer;
+    width: 80px;
+    height: 26px;
+    margin-right: 1rem;
+}
+#veto_menu{
+    width: 32px;
+    height: 24px;
+    cursor: pointer;
+}

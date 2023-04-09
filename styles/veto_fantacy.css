@@ -1,0 +1,56 @@
+.veto-fantacy{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #188CAD;
+}
+.veto_fantacy_image_parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+.veto_fantacy_image_parent > img{
+    margin-top: 3rem;
+    width: 478px;
+    height: 73px;
+}
+.veto_fantacy_content_parent{
+    height: 75vh;
+    display: flex;
+}
+.veto_fantacy_content_parent > div{
+    flex: 1;
+}
+#wide_range_of_contests_parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#wide_range_of_contests_parent > img{
+    width: 52%;
+}
+.wide_range_of_contests_parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+#wide_range_of_contests_mobile{
+    display: flex;
+    align-items: center;
+}
+#wide_range_of_contests_mobile > img{
+    width: 68%;
+}
+#veto_fantacy_carousel{
+    height: 5vh;
+    width: 100%;
+    display: flex;
+}
+
+/* Mobile */
+#veto-fantacy-mobile{
+    display: none;
+    width: 100%;
+}

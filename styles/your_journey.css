@@ -1,0 +1,8 @@
+.your_journey{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.your_journey > img{
+    width: 88%;
+}

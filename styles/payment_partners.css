@@ -1,0 +1,24 @@
+.payment-partners{
+    width: 100%;
+    height: 80vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.payment-partners > div{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 68vh;
+    align-items: center;
+    justify-content: space-between;
+}
+.payment-partners > div > img{
+    width: 17rem;
+}
+#payment-partners-mob{
+    display: none;
+    width: 100%;
+    padding: 2rem 1rem;
+}
