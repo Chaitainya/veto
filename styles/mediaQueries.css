@@ -1,0 +1,177 @@
+@media only screen and (max-width: 768px){
+
+    .veto-main{
+        height: auto;
+    }
+
+    /* Header */
+    .navbar{
+        height: 10vh;
+    }
+    #veto_logo{
+        width: 49px;
+        height: 49px;
+    }
+    #veto_brand{
+        width: 93px;
+        height: 25px;
+    }
+    #get_it_ps_mob{
+        display: block;
+    }
+    #veto_menu{
+        width: 32px;
+        height: 24px;
+    }
+
+    /* Banner */
+    #banner-right{
+        order: 1;
+        display: flex;
+        justify-content: center;
+    }
+    #banner-left{
+        order: 2;
+    }
+    #banner-left > div{
+        align-items: center;
+    }
+    #game_on{
+        width: 226px;
+        height: 49px;
+    }
+    #play_rummy_web,
+    #main_image_web,
+    #get_app_link_web,
+    #send_link_web,
+    #get_it_on_playStore_web{
+        display: none;
+    }
+    #play_rummy_mobile{
+        display: block;
+    }
+    #download_button{
+        display: block;
+    }
+    #main_image_mob{
+        display: block;
+    }
+    #getFreeVetosOnSignUp{
+        display: block;
+    }
+
+    /* Your Journey */
+    .your_journey{
+        display: flex;
+        justify-content: center;
+    }
+    #your_journey_web{
+        display: none;
+    }
+    #your_journey_mob{
+        display: block;
+    }
+
+    /* Veto Rewards */
+    .veto-rewards{
+        height: 70vh;
+    }
+    .veto_rewards_image_parent > img{
+        margin-top: 0rem;
+    }
+    .veto_rewards_group{
+        height: auto;
+    }
+    .veto_rewards_image_parent > img{
+        /* width: 276px;
+        height: 39px; */
+        width: 19rem;
+        height: 3.2rem;
+    }
+    #veto_rewards_group_web{
+        display: none;
+    }
+    #veto_rewards_group_mob{
+        display: block;
+    }
+
+    /* Veto Rummy */
+    .veto_rummy_image_parent > img{
+        /* width: 232px;
+        height: 39px; */
+        width: 17.5rem;
+        height: 3.2rem;
+    }
+    .veto_rummy_content_parent_web{
+        display: none;
+    }
+    #veto_rummy_carousel{
+        display: none;
+    }
+    #veto_rummy_mobile_version{
+        display: flex;
+    }
+    .veto-rummy{
+        height: auto;
+    }
+
+    /* Veto Cares */
+    .veto-cares{
+        height: 70vh;
+    }
+    .veto_cares_image_parent > img{
+        margin-top: 0rem;
+    }
+    .veto_cares_group{
+        height: auto;
+    }
+    .veto_cares_image_parent > img{
+        /* width: 213px;
+        height: 39px; */
+        width: 17.5rem;
+        height: 3.3rem;
+    }
+    #veto_cares_group_web{
+        display: none;
+    }
+    #veto_cares_group_mob{
+        display: block;
+    }
+
+    /* Veto Fantasy */
+    .veto-fantacy{
+        padding: 3rem;
+    }
+    .veto_fantacy_image_parent, .veto_fantacy_content_parent, #veto_fantacy_carousel{
+        display: none;
+    }
+    #veto-fantacy-mobile{
+        display: block;
+    }
+
+    /* Payment Parntners */
+    .payment-partners{
+        height: auto;
+    }
+
+    #payment-partners-web{
+        display: none;
+    }
+    #payment-partners-mob{
+        display: block;
+    }
+
+    /* Footer */
+    .footer-first-child{
+        display: block;
+    }
+    .footer-second-child{
+        text-align: left;
+    }
+    #this-game-involves{
+        text-align: center;
+    }
+    .footer-first-child-first-child, .footer-first-child-second-child{
+        padding: 0 2.6rem;
+    }
+}

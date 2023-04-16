@@ -10,7 +10,8 @@
     height: 20vh;
 }
 .veto_rummy_image_parent > img{
-    margin-top: 3rem;
+    /* margin-top: 3rem; */
+    margin-top: 2rem;
     width: 435px;
     height: 73px;
 }
@@ -43,4 +44,15 @@
     height: 5vh;
     width: 100%;
     display: flex;
+}
+
+#veto_rummy_mobile_version{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 4rem;
+}
+
+#veto_rummy_mobile_version > img{
+    width: 75%;
 }
